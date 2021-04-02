@@ -83,6 +83,7 @@ class Obrazovka(Tk):
                     backend = default_backend()
                 )
                 klic_us = base64.urlsafe_b64encode(decod.derive(heslo_en))
+                print(klic_us)
                 # ------FÁZE 3------
                 # ------FÁZE 3------
                 global Heslo2
